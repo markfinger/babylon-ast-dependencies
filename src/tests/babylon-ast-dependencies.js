@@ -1,5 +1,5 @@
 import * as babylon from 'babylon';
-import {assert} from '../utils/assert';
+import {assert} from './assert';
 import {babylonAstDependencies} from '../babylon-ast-dependencies';
 
 describe('babylon-ast-dependencies', () => {
