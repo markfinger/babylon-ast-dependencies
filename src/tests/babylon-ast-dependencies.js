@@ -53,7 +53,10 @@ describe('babylon-ast-dependencies', () => {
     });
     it('should pull dependencies from es module imports', () => {
       const ast = babylon.parse(
-        'import foo from "foo"; import {bar} from "bar";',
+        `
+          import foo from "foo";
+          import {bar} from "bar";
+        `,
         {sourceType: 'module'}
       );
 
