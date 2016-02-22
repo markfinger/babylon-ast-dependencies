@@ -2,6 +2,12 @@
 
 Inspects Babylon ASTs for dependency identifiers
 
+
+## Install
+
+`npm install --save babylon-ast-dependencies`
+
+
 ## Example
 
 ```js
@@ -22,6 +28,7 @@ const deps = babylonAstDependencies(ast);
 console.log(deps.map(dep => dep.source);
 // ['foo', './bar', 'woz']
 ```
+
 
 ## Notes
 
